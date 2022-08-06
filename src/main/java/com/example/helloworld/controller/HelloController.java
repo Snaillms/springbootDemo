@@ -11,6 +11,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello() {
 //      调用业务，接收前端的参数
+        System.out.println("jjjjjjjj");
         return "hello,world";
     }
 }
